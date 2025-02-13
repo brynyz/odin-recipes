@@ -5,12 +5,41 @@
         <title>Odin Recipes</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
+    <header>
+        <h1 class="header homepage">Odin Recipes</h1>
+        <hr>
+    </header>
     <body>
-        <h1 class="homepage-header">Odin Recipes</h1>
-        <ul class="recipe-list">
-            <li><a href="./recipes/hungarian-sausage-sandwich.html" class="recipe">Hungarian Sausage Recipe</a></li>
-            <li><a href="./recipes/hotdog-burnt-ends.html" class="recipe">Hotdog Burnt Ends</a></li>
-            <li><a href="./recipes/touchdown-pizza.html" class="recipe">Touchdown Pizza</a></li>
-        </ul>
+        <div class = "container">
+            <div class="recipe-container">
+                <ul class="recipe-list">
+                    <li class="recipe">
+                        <div class = "hungarian-sausage-sandwich">
+                            <a href="./recipes/hungarian-sausage-sandwich.html" class="recipe-item hungarian-sausage-sandwich">
+                                <img src="./images/hungarian-sausage-sandwich.jpg" alt="hungarian-sausage-sandwich" class="recipe-image hungarian-sausage-sandwich" width="200" height="auto">
+                                <h2 class = "recipe-title">Hungarian Sausage Sandwich</h2>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="recipe">
+                        <div class="hotdog-burnt-ends">
+                            <a href="./recipes/hotdog-burnt-ends.html" class="recipe-item hotdog-burnt-ends">
+                                <img src="./images/hotdog-burnt-ends.jpg" alt="hotdog-burnt-ends" class="recipe-image hotdog-burnt-ends" width="200" height="auto">
+                                <h2 class = "recipe-title">Hotdog Burnt Ends</h2>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="recipe">
+                        <div>
+                            <a href="./recipes/touchdown-pizza.html" class="recipe-item touchdown-pizza">
+                                <img src="./images/touchdown-pizza.jpg" alt="touchdown-pizza" class="recipe-image touchdown-pizza" width="200" height="auto">
+                                <h2 class = "recipe-title">Touchdown Pizza</h2>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
